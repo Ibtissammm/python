@@ -7,7 +7,7 @@ x = app_name
 print(x)
 for d in jobs:
     if d['name'].startswith(str(x)):
-        server.disable_job(d)
+        server.disable_job('d')
 #    else :
 #        print("do not")
 #server.disable_job('job')
