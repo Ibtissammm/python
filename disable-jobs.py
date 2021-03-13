@@ -5,10 +5,10 @@ jobs = server.get_jobs()
 app_name=os.getenv("app_name")
 x=app_name
 print(x)
-for job in jobs :
+for job in jobs:
     if job['name'].startswith("x"):
         print(job)
-#       server.disable_job('job')
+#server.disable_job('job')
 #print(app_name)
 
 
