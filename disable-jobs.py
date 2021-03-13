@@ -8,6 +8,8 @@ print(x)
 for d in jobs:
     if d['name'].startswith("x"):
         print(d)
+    else :
+        print("do not")
 #server.disable_job('job')
 #print(app_name)
 
