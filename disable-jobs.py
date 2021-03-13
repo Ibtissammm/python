@@ -6,7 +6,7 @@ app_name=os.getenv("app_name")
 x = app_name
 print(x)
 for d in jobs:
-    if d['name'].startswith("str(x)"):
+    if d['name'].startswith(str(x)):
         print(d)
 #    else :
 #        print("do not")
