@@ -8,7 +8,7 @@ print(x)
 for d in jobs:
     if d['name'].startswith(str(x)):
         print(d)
-       #server.disable_job(d)
+        server.disable_job(d['name'])
 #    else :
 #        print("do not")
 #server.disable_job('job')
