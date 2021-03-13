@@ -6,10 +6,10 @@ app_name=os.getenv("app_name")
 x = app_name
 print(x)
 for d in jobs:
-    if d['name'].startswith("tes"):
+    if d['name'].startswith("sa"):
         print(d)
-    else :
-        print("do not")
+#    else :
+#        print("do not")
 #server.disable_job('job')
 #print(app_name)
 
