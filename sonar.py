@@ -1,5 +1,5 @@
-#from sonarqube import SonarQubeClient
-from sonarqube.api import SonarQube
+from sonarqube import SonarQubeClient
+#from sonarqube.api import SonarQube
 
 url = 'http://localhost:9000'
 username = "admin"
