@@ -1,3 +1,4 @@
+from sonarqube import SonarQubeClient
 url = 'http://localhost:9000'
 username = "admin"
 password = "17001644"
