@@ -12,6 +12,6 @@ x = groupid
 for i in components :
     if i['key'].startswith(str(x)):
         print(i['key'])
-        sonar.projects.delete_project(project="i['name']")
+        sonar.projects.delete_project(i['project'])
 
 
