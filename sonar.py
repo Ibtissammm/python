@@ -11,7 +11,7 @@ groupid=os.getenv("groupid")
 x = groupid
 for i in components :
     if i['key'].startswith(str(x)):
-        print(i)
-        sonar.projects.delete_project(project="i[name]")
+        print(i['key'])
+        sonar.projects.delete_project(project="i['name']")
 
 
