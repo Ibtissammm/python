@@ -12,6 +12,6 @@ x = key
 for i in components :
     if i['key'].startswith(str(x)):
         print(i)
-        sonar.projects.bulk_delete_projects(projects="i[key]")
+        sonar.projects.bulk_delete_projects(projects="i[project")
 
 
